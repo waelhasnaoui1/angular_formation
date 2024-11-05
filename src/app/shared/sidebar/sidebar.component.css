@@ -17,9 +17,22 @@
 
   .example-container {
     height: 100%;
-    width: 30vw;
+
   }
 
 ::ng-deep .mat-mdc-list-item-unscoped-content {
   display: flex;
 }
+
+.example-container {
+    height: 100vh;
+  }
+  
+  .example-sidenav {
+    width: 250px;
+    background-color: white;
+  }
+  
+  ::ng-deep .mat-list-item.active {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
